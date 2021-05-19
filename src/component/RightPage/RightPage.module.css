@@ -1,0 +1,39 @@
+.RightPage {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  background-image: linear-gradient(to bottom left, rgb(90, 172, 90), rgb(132, 190, 6));
+  width: 30%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 25px;
+  left: 59%;
+  top: 25%;
+  display: block;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+.RightPage img {
+  width: 60%;
+  height: 65%;
+  float: right;
+  margin-right: 0.5cm;
+}
+
+.RightPage p {
+  margin: auto;
+  align-items: center;
+  float: left;
+  font-weight: bold;
+  font-family:sans-serif;
+  text-transform: capitalize;
+}
+
+.RightPage button {
+  background-color: hsl(0, 76%, 59%);
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+}

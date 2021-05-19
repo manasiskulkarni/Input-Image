@@ -1,0 +1,49 @@
+.LeftPage {
+  position: absolute;
+  z-index: 500;
+  background-color: white;
+  background-image: linear-gradient(to bottom right, rgb(226, 169, 11), rgb(226,96,11));
+  width: 30%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 25px;
+  left: 5%;
+  top: 25%;
+  display: block;
+  box-sizing: border-box;
+  align-items: center;
+  margin: auto;
+}
+
+.LeftPage img {
+  margin: 1cm;
+  align-items: center;
+}
+
+.LeftPage input {
+  margin-bottom: 1cm;
+  align-items: center;
+}
+
+::placeholder{
+  color: rgb(235, 100, 100);
+  font-size: small;
+  font-style:oblique;
+}
+
+
+.LeftPage button {
+  background-color: gray;
+  align-items: center;
+  margin: 1cm;
+  cursor: not-allowed;
+}
+
+@media (max-width: 750px) {
+  .LeftPage img,
+  input,
+  button {
+    width: 30%;
+    align-items: center;
+  }
+}

@@ -1,0 +1,16 @@
+.Column1 {
+  background-color:thistle;
+}
+
+.Column2 {
+  background-color:rosybrown;
+}
+
+.Row {
+  width: 100%;
+  height: 100%;
+  position:absolute;
+
+ 
+}
+
